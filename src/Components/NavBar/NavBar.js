@@ -13,7 +13,7 @@ function NavBar() {
 
       <button className="button type1">
         <span className="btn-txt">Log In</span>
-      </button>
+      </button>      
     </div>
   );
 }
