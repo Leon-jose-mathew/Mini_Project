@@ -10,7 +10,6 @@ function NavBar() {
         <h3 className="navcontent">Complaint</h3>
         <h3 className="navcontent">Contact</h3>
       </div>
-
       <button className="button type1">
         <span className="btn-txt">Log In</span>
       </button>      
