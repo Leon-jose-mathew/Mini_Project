@@ -1,0 +1,63 @@
+.Homebody{
+    top: 0;
+    height: 100%;
+    width:100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    color: black;
+    background-image: url("https://img.freepik.com/free-vector/abstract-boho-blurred-background_17005-1834.jpg?w=740&t=st=1684697076~exp=1684697676~hmac=5e84497e172e96a31e66637e5cf1d53745cd7d40bf332340fbe500b0d0a93f3f");
+}
+.title{
+    margin-top: 35vh;
+    margin-right: 70vh;
+    margin-left: 7.1vh;
+    font-size:70px;
+    color: #6db23c;
+    font-family: 'Righteous', cursive;
+    text-shadow: -2px -2px 4px #838481, 
+      2px 2px 2px #848883;   
+}
+.title.anim{
+    animation-delay: 0.75s;
+}
+.description{
+    margin-left: 7.1vh;
+    margin-top: 5vh;
+    font-family:'Comfortaa', cursive;
+    font-size: larger;
+    font-weight: 800;
+    line-height: 5vh;
+    color: #282626;
+     text-shadow: -1px 0x 3px #7a7878, 
+      1px 1px 4px #616060  
+}
+.description.anim{
+    animation-delay: 1.25s;
+}
+.img{
+    width: 500px;
+    bottom: 0;
+    right: 0;
+   margin-bottom: 4vh;
+    position:absolute;
+}
+.img.anim{
+    animation-delay: 1.50s;
+}
+
+
+.anim{
+    opacity: 0;
+    transform: translateY(10px);
+    animation: moveup 1s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(10px);
+    }
+}
+
+
