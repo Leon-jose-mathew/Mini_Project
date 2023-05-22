@@ -4,7 +4,11 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div className="navbar">
+<<<<<<< HEAD
       <h2 className="navtitle">Peoples  Ration</h2>
+=======
+      <h2 className="navtitle">People's Ration</h2>
+>>>>>>> 226bcac5e07a3ad3e98a8c63c47b7059c577c62f
       <div className="nav-links">
         <h3 className="navcontent">About</h3>
         <h3 className="navcontent">Complaint</h3>
